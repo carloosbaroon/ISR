@@ -16,3 +16,4 @@ bin/isr/example/LoginTest.class
 WebContent/META-INF/MANIFEST.MF
 WebContent/WEB-INF/web.xml
 /bin/
+.DS_Store
