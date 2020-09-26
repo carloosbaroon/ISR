@@ -29,10 +29,7 @@ public class Service extends ExampleSupport {
 
 
 	public String execute() throws Exception {
-		ClientConfig clientConfig = new ClientConfig();
-		Client client = ClientBuilder.newClient(clientConfig);
-		URI serviceURI = UriBuilder.fromUri(targetUrl).build();
-		WebTarget webTarget = client.target(serviceURI);
+	
 		
 		baseUrl = "https://isr-urhxsjsspa-uc.a.run.app/ISR/";
 		targetUrl = baseUrl+ cantidad;
@@ -41,8 +38,6 @@ public class Service extends ExampleSupport {
 		System.out.println("Target:"+targetUrl);
 		
 		// response
-		System.out.println(webTarget.path("rest").path("helloworld").request()
-						.accept(MediaType.TEXT_PLAIN).get(Response.class).toString());
 		
         return SUCCESS;
     }
