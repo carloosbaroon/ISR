@@ -1,0 +1,17 @@
+
+.classpath
+.project
+.settings/.jsdtscope
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.eclipse.wst.common.component
+.settings/org.eclipse.wst.common.project.facet.core.xml
+.settings/org.eclipse.wst.jsdt.ui.superType.container
+.settings/org.eclipse.wst.jsdt.ui.superType.name
+bin/isr/example/ConfigTest.class
+bin/isr/example/ExampleSupport.class
+bin/isr/example/HelloWorld.class
+bin/isr/example/HelloWorldTest.class
+bin/isr/example/Login.class
+bin/isr/example/LoginTest.class
+WebContent/META-INF/MANIFEST.MF
+WebContent/WEB-INF/web.xml
