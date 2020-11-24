@@ -31,6 +31,15 @@
           <action name="Consumir" class="tutorial.example.Service">
           <result>/WEB-INF/example/Response.jsp</result>
         </action>
+        
+        <action name="imc2" class="tutorial.example.Service">
+          <result>/WEB-INF/example/ResponseIMC.jsp</result>
+        </action>
+        
+        <action name="imc" method= "imc" class="tutorial.example.Service">
+          <result>/WEB-INF/example/ResponseIMC.jsp</result>
+        </action>
+        
 
         <action name="*" class="tutorial.example.ExampleSupport">
             <result>/WEB-INF/example/{1}.jsp</result>

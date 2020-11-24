@@ -2,16 +2,17 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
-    <title>Response</title>
+    <title>Response IMC</title>
 </head>
 
 <body>
 <div>
 			
-	<h1>ISR</h1>
+	<h1>IMC</h1>
 	
-	<label><b>Valor</b></label><br>
+	<label><b>IMC</b></label><br>
 	<s:property value="valor"/><br>
+	</div>
 	
 </body>
 </html>

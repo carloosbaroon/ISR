@@ -10,5 +10,16 @@
     <s:textfield name="cantidad"/>
     <s:submit value="cantidad"/>
 </s:form>
+
+
+<s:form action="imc">
+    <label><b>Calcular IMC</b></label><br>
+    
+    <s:textfield name="edad"/>
+    <s:textfield name="altura"/>
+    <s:textfield name="peso"/>
+    <s:submit value="imc"/>
+</s:form>
+
 </body>
 </html>

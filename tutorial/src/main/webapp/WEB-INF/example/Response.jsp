@@ -12,6 +12,7 @@
 	
 	<label><b>Valor</b></label><br>
 	<s:property value="valor"/><br>
+	</div>
 	
 </body>
 </html>
